@@ -1,0 +1,83 @@
+/*** Fonts ***/
+@import url('https://fonts.googleapis.com/css?family=Nixie+One|Open+Sans');
+
+/*** Colours ***/
+$lightBlue: #b6fbff;
+$darkBlue: #83a4d4;
+$darkGrey: #68686891;
+$medGrey: #8b89897a;
+
+
+body {
+  background: $lightBlue;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, $lightBlue, $darkBlue);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, $lightBlue, $darkBlue); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Nixie One', serif;
+  font-size: calc(10px + 2vmin)
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+
+.sun {
+  width: calc(80px + 5vmin);
+  height: auto;
+  align-self: center;
+}
+
+.title {
+  font-size: calc(10px + 6vmin);
+}
+
+#city {
+  border-radius: 4px;
+  border: none;
+  padding: .5em 1em;
+  box-shadow: .2em .1em .3em  $medGrey;
+  font-size: calc(10px + .5vmin);
+  margin: 2em;
+  transition: all ease-in-out .3s;
+
+  &:active, &:focus {
+    box-shadow: .2em .2em .8em $medGrey;
+  }
+}
+
+button {
+  background-color: $darkBlue;
+  border-radius: 4px;
+  border: none;
+  padding: .5em 1em;
+  cursor: pointer;
+  margin: 2em;
+  box-shadow: .2em .1em .3em $medGrey;
+  font-size: calc(10px + .75vmin);
+  transition: all ease-in-out .2s;
+  color: #fff;
+
+  &:hover {
+    background-color: #ccdcf3;
+    box-shadow: .2em .2em .6em $darkGrey;
+    color: #333
+  }
+
+  &:active, &:focus {
+    background-color: #aac2e6;
+    box-shadow: .1em .1em .1em $darkGrey;
+    color: #333;
+  }
+}
