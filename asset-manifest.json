@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/weather-forecast-react/static/css/main.1757e1cc.chunk.css",
+    "main.js": "/weather-forecast-react/static/js/main.1a5a8fb3.chunk.js",
+    "main.js.map": "/weather-forecast-react/static/js/main.1a5a8fb3.chunk.js.map",
+    "runtime~main.js": "/weather-forecast-react/static/js/runtime~main.d324ba79.js",
+    "runtime~main.js.map": "/weather-forecast-react/static/js/runtime~main.d324ba79.js.map",
+    "static/js/2.d8b431e5.chunk.js": "/weather-forecast-react/static/js/2.d8b431e5.chunk.js",
+    "static/js/2.d8b431e5.chunk.js.map": "/weather-forecast-react/static/js/2.d8b431e5.chunk.js.map",
+    "index.html": "/weather-forecast-react/index.html",
+    "precache-manifest.7bfcec3eafbae6974a72372ca7b8a8f7.js": "/weather-forecast-react/precache-manifest.7bfcec3eafbae6974a72372ca7b8a8f7.js",
+    "service-worker.js": "/weather-forecast-react/service-worker.js",
+    "static/css/main.1757e1cc.chunk.css.map": "/weather-forecast-react/static/css/main.1757e1cc.chunk.css.map",
+    "static/media/sun.png": "/weather-forecast-react/static/media/sun.7908f147.png"
+  }
+}
